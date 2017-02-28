@@ -1,0 +1,26 @@
+{
+  "name": "llankay",
+  "description": "Aplicación para seguimiento de tareas programadas",
+  "main": "public/index.php",
+  "authors": [
+    "Jheison Jeremy Mayta Cáceres <jmayta.dev@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "todo",
+    "tasks"
+  ],
+  "homepage": "https://github.com/ayataki/llankay",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/assets/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flat-ui": "^2.3.0"
+  }
+}

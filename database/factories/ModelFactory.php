@@ -22,3 +22,17 @@ $factory->define(Llankay\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+$factory->define(Llankay\Context::class, function (Faker\Generator $faker) {
+    return [
+        'name' => $faker->unique()->word,
+        'description' => $faker->sentence($nbWords = 5, $variableNbWords = true)
+    ];
+});
+
+$factory->define(Llankay\Context::class, function (Faker\Generator $faker) {
+    return [
+        'name' => $faker->unique()->word,
+        'description' => $faker->sentence($nbWords = 5, $variableNbWords = true)
+    ];
+});
